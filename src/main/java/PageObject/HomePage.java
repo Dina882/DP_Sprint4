@@ -107,7 +107,8 @@ public class HomePage {
     public void clickLiveOutsideMoscow() { //клик на 8й  вопрос
         driver.findElement(liveOutsideMoscow).click();
     }
-    public boolean IsAnswerLiveOutsideMoscow() { // проверка наличия текста в ответе на 8й вопрос
+    public boolean IsAnswerLiveOutsideMoscow() { 
+        // проверка наличия текста в ответе на 8й вопрос
         return driver.findElements(answerLiveOutsideMoscow).size() > 0;
     }
 
