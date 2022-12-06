@@ -15,8 +15,7 @@ public class OrderElements {
 
 
 
-    public void open() { 
-    //переход по ссылке
+    public void open() {  //переход по ссылке
         driver.get(url);
     }
     public void clickCookie() { //закрываем куки
