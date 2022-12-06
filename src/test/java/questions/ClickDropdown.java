@@ -18,7 +18,7 @@ public class ClickDropdown {
 //      выбираем браузер
         driver = new ChromeDriver();
 //      driver = new FirefoxDriver();
-//      для проверки браузера Firefox
+//        для проверки браузера Firefox
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
