@@ -12,13 +12,13 @@ public class HomePage {
 
 
     private final By howMuch = By.xpath(".//div[@id='accordion__heading-0']");
-    // вопрос "Сколько это стоит? И как оплатить?"
+     // вопрос "Сколько это стоит? И как оплатить?"
     private final By answerHowMuch = By.id("accordion__panel-0");
-    // ответ на вопрос
+     // ответ на вопрос
     private final By wantSeveralScooters = By.xpath(".//div[@id='accordion__heading-1']");
-    // вопрос "Хочу сразу несколько самокатов! Так можно?"
+     // вопрос "Хочу сразу несколько самокатов! Так можно?"
     private final By answerSeveralScooters = By.id("accordion__panel-1");
-    // ответ вопрос
+     // ответ вопрос
     private final By howRentalTimeCalculated = By.xpath(".//div[@id='accordion__heading-2']");
     // вопрос "Как рассчитывается время аренды?"
     private final By answerHowRentalTimeCalculated = By.id("accordion__panel-2");
