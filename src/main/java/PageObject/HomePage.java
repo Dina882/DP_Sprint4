@@ -11,22 +11,38 @@ public class HomePage {
     private final String url = "https://qa-scooter.praktikum-services.ru/"; // url входа
 
 
-    private final By howMuch = By.xpath(".//div[@id='accordion__heading-0']");// 1й вопрос списка
-    private final By answerHowMuch = By.id("accordion__panel-0"); // ответ на 1й вопрос
-    private final By wantSeveralScooters = By.xpath(".//div[@id='accordion__heading-1']"); // 2й вопрос списка
-    private final By answerSeveralScooters = By.id("accordion__panel-1"); // ответ на 2й вопрос
-    private final By howRentalTimeCalculated = By.xpath(".//div[@id='accordion__heading-2']"); // 3й вопрос списка
-    private final By answerHowRentalTimeCalculated = By.id("accordion__panel-2"); // ответ на 3й вопрос
-    private final By todayOrder = By.xpath(".//div[@id='accordion__heading-3']"); // 4й вопрос списка
-    private final By answerTodayOrder = By.id("accordion__panel-3"); // ответ на 4й вопрос
-    private final By extendOrder = By.xpath(".//div[@id='accordion__heading-4']"); // 5й вопрос списка
-    private final By answerExtendOrder = By.id("accordion__panel-4"); // ответ на 5й вопрос
-    private final By charging = By.xpath(".//div[@id='accordion__heading-5']");// 6й вопрос списка
-    private final By answerCharging = By.id("accordion__panel-5");// ответ на 6й вопрос
-    private final By canOrderCancellation = By.xpath(".//div[@id='accordion__heading-6']"); // 7й вопрос списка
-    private final By answerCanOrderCancellation = By.id("accordion__panel-6"); // ответ на 7й вопрос
-    private final By liveOutsideMoscow = By.xpath(".//div[@id='accordion__heading-7']"); // 8й вопрос списка
-    private final By answerLiveOutsideMoscow = By.id("accordion__panel-7"); // ответ на 8й вопрос
+    private final By howMuch = By.xpath(".//div[@id='accordion__heading-0']");
+    // вопрос "Сколько это стоит? И как оплатить?"
+    private final By answerHowMuch = By.id("accordion__panel-0");
+    // ответ на вопрос
+    private final By wantSeveralScooters = By.xpath(".//div[@id='accordion__heading-1']");
+    // вопрос "Хочу сразу несколько самокатов! Так можно?"
+    private final By answerSeveralScooters = By.id("accordion__panel-1");
+    // ответ вопрос
+    private final By howRentalTimeCalculated = By.xpath(".//div[@id='accordion__heading-2']");
+    // вопрос "Как рассчитывается время аренды?"
+    private final By answerHowRentalTimeCalculated = By.id("accordion__panel-2");
+    // ответ на вопрос
+    private final By todayOrder = By.xpath(".//div[@id='accordion__heading-3']");
+    // вопрос Можно ли заказать самокат прямо на сегодня?
+    private final By answerTodayOrder = By.id("accordion__panel-3");
+    // ответ на вопрос
+    private final By extendOrder = By.xpath(".//div[@id='accordion__heading-4']");
+    // вопрос "Можно ли продлить заказ или вернуть самокат раньше?"
+    private final By answerExtendOrder = By.id("accordion__panel-4");
+    // ответ на вопрос
+    private final By charging = By.xpath(".//div[@id='accordion__heading-5']");
+    // вопрос "Вы привозите зарядку вместе с самокатом?"
+    private final By answerCharging = By.id("accordion__panel-5");
+    // ответ на  вопрос
+    private final By canOrderCancellation = By.xpath(".//div[@id='accordion__heading-6']");
+    // вопрос "Можно ли отменить заказ?"
+    private final By answerCanOrderCancellation = By.id("accordion__panel-6");
+    // ответ на вопрос
+    private final By liveOutsideMoscow = By.xpath(".//div[@id='accordion__heading-7']");
+    // вопрос "Я жизу за МКАДом, привезёте?"
+    private final By answerLiveOutsideMoscow = By.id("accordion__panel-7");
+    // ответ на вопрос
     //private final By buttonUpOrder = By.xpath(".//button[@class='Button_Button__ra12g']"); // кнопка Заказать вверху страницы
 
     // private final By goButton = By.xpath(".//button[text() ='Go!']"); */

@@ -78,11 +78,11 @@ public class OrderElements {
         driver.findElement(By.xpath(".//input[@id='black']")).click();
     }
     public void comment() {
-//      комментарий для курьера
+//       комментарий для курьера
         driver.findElement(By.xpath(".//input[@placeholder='Комментарий для курьера']")).sendKeys("Хорошего дня");
     }
     public void clickToOrder() {
-//      кликнуть заказать, оформить
+//       кликнуть заказать, оформить
         driver.findElement(By.xpath(".//button[@class='Button_Button__ra12g Button_Middle__1CSJM']")).click();
     }
     public void clickYes() {   // кликнуть Да

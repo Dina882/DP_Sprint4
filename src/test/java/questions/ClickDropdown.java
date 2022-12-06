@@ -15,7 +15,7 @@ public class ClickDropdown {
 
     @Before
     public void setUp() {
-//      выбораем браузер
+//      выбираем браузер
         driver = new ChromeDriver();
 //      driver = new FirefoxDriver();
 //      для проверки браузера Firefox
